@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 13px;
+  font-size: 15px;
   color: #7a7a7a;
   line-height: 24px;
 }
@@ -53,7 +53,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #410b0a;
 }
 
 .section-heading p {
@@ -65,12 +65,12 @@ p {
   top: 12.5px;
 }
 
-.white-button a {
+.white-button a { /*boton rojo del banner*/
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #410b0a;
   text-transform: capitalize;
-  background-color: #fff;
+  background-color: #fff; 
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -80,17 +80,18 @@ p {
   transition: all 0.3s;
 }
 
-.white-button a:hover {
-  background-color: #45489a;
+.white-button a:hover { /*boton rojo del banner*/
+  background-image: url(../img/vinofondo.jpg);
+  /*background-color: #410b0a;*/
   color: #fff;
 }
 
-.accent-button a {
+.accent-button a { /* botones del cuerpo */
   font-size: 13px;
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #410b0a;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -100,9 +101,9 @@ p {
   transition: all 0.3s;
 }
 
-.accent-button a:hover {
+.accent-button a:hover { /* letra al pasar el cursor sobre los botones del cuerpo*/
   background-color: #fff;
-  color: #45489a;
+  color: #410b0a;
 }
 
 header {
@@ -166,7 +167,7 @@ header {
 
 #main-nav ul li a:hover {
   opacity: 0.5;
-  background-color: transparent;
+  background-color: transparent; /*transparent*/
 }
 
 .navbar-toggle span {
@@ -185,12 +186,13 @@ header {
   z-index: 10;
 }
 
-.sidebar-navigation .logo {
+.sidebar-navigation .logo { /* Fondo nombre empresa - barra navegación*/
   position: absolute;
   width: 100%;
   height: 140px;
   line-height: 100px;
-  background-color: #45489a;
+  background-image: url(../img/vinofondo.jpg);
+  /*background-color: #45489a;*/
   padding: 20px;
   text-align: center;
 }
@@ -260,7 +262,7 @@ header {
   height: 1px;
   width: 0px;
   left: 0;
-  bottom: 5.5px;
+  bottom: 5.5px;  
   background-color: #fff;
   -webkit-transition: -webkit-transform 0.1s, width 0.6s;
   -moz-transition: -webkit-transform 0.1s, width 0.6s;
@@ -272,13 +274,13 @@ header {
 .sidebar-navigation nav a:hover, nav .active-section {
   color: #fff;
 }
-.sidebar-navigation nav a:hover span, nav .active-section span{
-  background-color: #ddd;
+.sidebar-navigation nav a:hover span, nav .active-section span{ /*circuki de navegacion al pasar cursor*/
+  background-color: #fff;
 }
 .sidebar-navigation nav .active-section .rect{
   width: 30px;
 }
-.sidebar-navigation nav .active-section .circle{
+.sidebar-navigation nav .active-section .circle{ /*circulo de navegacion*/
   background-color: #fff;
 }
 
@@ -307,8 +309,8 @@ header {
   transition: all 0.5s;
 }
 
-.sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+.sidebar-navigation .social-icons li a:hover {  /* al pasar cursos sobre el icono de redes sociales*/
+  color: #410b0a;
 }
 
 
@@ -354,7 +356,8 @@ header {
 }
 
 .Modern-Slider .info p {
-  font-size: 15px;
+  /*background: #291919b6; */
+  font-size: 20px;
   color: #fff;
 }
 
@@ -389,6 +392,7 @@ header {
 
 .Modern-Slider .NextArrow:before{content:'\f105';}
 
+/*%%%%%%%%%%%%% fondo negro transparente Barra- navegacion %%%%%%%%%%%%%%%*/
 .Modern-Slider .PrevArrow{
   outline: none;
   position:absolute;
@@ -418,13 +422,14 @@ header {
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/slide_2.jpg);
-}
+  background-image: url(../img/vbannerVMortino.jpg);
+} 
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/slide_3.jpg);
+  background-image: url(../img/mortinoslider4.png);
 }
 
+/* %%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%%*/
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
@@ -485,8 +490,8 @@ header {
   margin: 0 3px;
 }
 
-#featured .owl-dots .active span {
-  background-color: #45489a!important;
+#featured .owl-dots .active span { /*coor de puntitos en catálogo*/
+  background-color: #410b0a!important;
 }
 
 #featured .owl-dots button {
@@ -516,13 +521,14 @@ header {
   text-align: center;
   line-height: 42px;
   background-color: #eee;
-  color: #232323;
+  color: #410b0a; /* Catálogo letra roja barra de navegación*/
   font-size: 42px;
   transition: all 0.5s;
 }
 
-#featured .owl-nav span:hover {
-  background-color: #45489a;
+#featured .owl-nav span:hover { /* Catálogo barra navegacion */
+  background-image: url(../img/vinofondo.jpg);
+  /*background-color: #410b0a;*/
   color: #fff;
 }
 
@@ -541,13 +547,14 @@ header {
   overflow: hidden;
 }
 
-#featured .item .image .featured-button a {
+#featured .item .image .featured-button a { /*Catálogo botón "ver mas"*/
   font-size: 13px;
   font-weight: 600;
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69,72,154, 0.9);
+  background-image: url(../img/vinofondo.jpg);
+  /*background-color: #410b0a; */
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -729,14 +736,14 @@ header {
   padding-bottom: 80px;
 }
 
-#blog .tabs {
+#blog .tabs { /*blog ractangulo inferior*/
   list-style: none;
   margin: 0px;
   padding: 0px;
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #410b0a;
 }
 
 #blog .tabs li {
@@ -761,8 +768,8 @@ header {
   transition: 0.5s;
 }
 
-#blog .tabs a:hover {
-  color: #45489a;
+#blog .tabs a:hover { /*blog letras a rojo al pasar el cursor*/
+  color: #410b0a;
 }
 
 
@@ -770,8 +777,9 @@ header {
   color: #fff;
 }
 
-#blog .tabs .active {
-  background-color: #45489a;
+#blog .tabs .active { /*blog cuadro en la sección activa*/
+  background-image: url(../img/vinofondo.jpg);
+  /*background-color: #410b0a;*/
   color: #fff;
 }
 
@@ -841,18 +849,24 @@ header {
 
 
 
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* Contact Style */
 
-#contact {
+#contact {  /*sección general contacto*/
   padding-top: 0px;
+  /*background-color: red;*/
 }
 
-#contact-content {
+/* sección contacto*/
+#contact-content { 
   padding: 80px 60px;
+  background-image: url(../img/contactojpg2.jpg);
+  /*background-color: black;*/
 }
 
-#contact input {
+/* cuadros: nombre, apellido y e-mail*/
+/*
+#contact input { 
   border-radius: 0px;
   padding-left: 15px;
   font-size: 13px;
@@ -865,9 +879,11 @@ header {
   height: 40px;
   width: 100%;
   margin-bottom: 25px;
-}
+}*/
 
-#contact textarea {
+/* area de mensaje, lo q se escribe*/
+/*
+#contact textarea { 
   border-radius: 0px;
   padding-left: 15px;
   padding-top: 10px;
@@ -882,15 +898,18 @@ header {
   width: 100%;
   max-width: 100%;
   margin-bottom: 25px;
-}
+}*/
 
-#contact button {
+/* Contacto, boton enviar*/
+/*
+#contact button { 
   font-size: 13px;
   border-radius: 0px;
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-image: url(../img/vinofondo.jpg);
+  background-color: #410b0a;
   display: inline-block;
   height: 44px;
   line-height: 24px;
@@ -900,15 +919,15 @@ header {
   letter-spacing: 0.25px;
   text-decoration: none;
   transition: all 0.3s;
-}
+}*/
 
 #contact button:hover {
   color: #232323;
-  background-color: #f4f4f4;
+  background-color: #eec2c2;
 }
 
 
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% pie página %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 /* Footer Style */
 
 .footer {
@@ -936,7 +955,7 @@ header {
 }
 
 
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% estilo responsivo %%%%%%%%%%%%%%%%%%%%%%%*/
 /* Responsive Style */
 
 @media (max-width: 992px) {
