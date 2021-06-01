@@ -860,8 +860,8 @@ header {
 /* sección contacto*/
 #contact-content { 
   padding: 80px 60px;
-  background-image: url(../img/contactojpg2.jpg);
-  /*background-color: black;*/
+  /*background-image: url(../img/contactojpg2.jpg); */
+  background-color: #C9CBCF;
 }
 
 /* cuadros: nombre, apellido y e-mail*/
